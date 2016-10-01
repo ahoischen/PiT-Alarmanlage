@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slackIntegration", "slackIntegration\slackIntegration.csproj", "{FFDE2AAC-2069-46FA-908B-2399AEC185EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slackMessengerTester", "slackMessengerTester\slackMessengerTester.csproj", "{1A927D60-C40B-4F41-9334-3CE580CF8A9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datenverarbeitung", "Datenverarbeitung\Datenverarbeitung.csproj", "{0AA3D62C-18C2-4770-978A-0687691743BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,13 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1A927D60-C40B-4F41-9334-3CE580CF8A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A927D60-C40B-4F41-9334-3CE580CF8A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A927D60-C40B-4F41-9334-3CE580CF8A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A927D60-C40B-4F41-9334-3CE580CF8A9E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FFDE2AAC-2069-46FA-908B-2399AEC185EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FFDE2AAC-2069-46FA-908B-2399AEC185EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFDE2AAC-2069-46FA-908B-2399AEC185EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFDE2AAC-2069-46FA-908B-2399AEC185EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AA3D62C-18C2-4770-978A-0687691743BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AA3D62C-18C2-4770-978A-0687691743BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AA3D62C-18C2-4770-978A-0687691743BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AA3D62C-18C2-4770-978A-0687691743BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

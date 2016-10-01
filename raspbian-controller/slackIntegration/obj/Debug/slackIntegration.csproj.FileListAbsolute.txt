@@ -1,0 +1,16 @@
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\slackIntegration.dll
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\slackIntegration.pdb
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\obj\Debug\slackIntegration.csprojResolveAssemblyReference.cache
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\obj\Debug\slackIntegration.dll
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\obj\Debug\slackIntegration.pdb
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\Nancy.dll
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\Nancy.Hosting.Self.dll
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\Newtonsoft.Json.dll
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\RestSharp.dll
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\ServiceStack.Text.dll
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\Slack.Webhooks.dll
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\Newtonsoft.Json.xml
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\RestSharp.xml
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\ServiceStack.Text.xml
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\Nancy.xml
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\Nancy.Hosting.Self.xml
