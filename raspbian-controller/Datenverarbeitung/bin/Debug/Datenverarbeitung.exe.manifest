@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3vWZY2zAmNMbXwLF4cC74M7JUzcvdppU1NjIIXCV6vY=</dsig:DigestValue>
+        <dsig:DigestValue>9ydIuaifjzFh7CEuu41NcmM1yuhfW/k7jJaQcHIQQrI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -127,13 +127,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="slackIntegration.dll" size="6144">
-      <assemblyIdentity name="slackIntegration" version="1.0.6118.35780" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="slackIntegration" version="1.0.6118.37038" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>fHx6lafYQEo2yO9ku1u3lyFnC6mnlnJxybyQQuwM/9k=</dsig:DigestValue>
+        <dsig:DigestValue>UkWepdsnk4gK6rJ6GC7ZIvqC0yFATbGilYmlkD0YFe0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

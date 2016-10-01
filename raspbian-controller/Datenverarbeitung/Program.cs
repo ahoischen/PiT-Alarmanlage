@@ -63,6 +63,14 @@ namespace Datenverarbeitung
             {
                 return true;
             }
+           if(topic.Equals("mikrofon") )
+            {
+                int zahl = Convert.ToInt32(text);
+                if(zahl > 500)
+                {
+                    return true;
+                }
+            }
             return false;
 
 
