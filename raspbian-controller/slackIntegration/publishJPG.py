@@ -13,7 +13,8 @@ client = ImgurClient(client_id, client_secret)
 custom_url = client.upload_from_path(filename)['link']
 messageText = sys.argv[1]
 api_url = 'https://hooks.slack.com/services/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'
-payload = {'text':messageText, 'icon_url':custom_url }
+payload = {'pretext':messageText, 'attachments': [ {'icon_url':custom_url, 'fallback':'NoImageForYou!', 'image_url':custom_url, 'title':'I like to steal your things!'} ] }
+
 
 import json
 import requests
