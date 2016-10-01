@@ -1,0 +1,5 @@
+POST https://hooks.slack.com/services/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
+Content-type: application/json
+{
+  "text": "I am a bot and I like to post things."
+}
