@@ -43,6 +43,12 @@
     <Reference Include="Slack.Webhooks">
       <HintPath>..\packages\Slack.Webhooks.0.1.6\lib\net40\Slack.Webhooks.dll</HintPath>
     </Reference>
+    <Reference Include="Nancy">
+      <HintPath>..\packages\Nancy.1.4.1\lib\net40\Nancy.dll</HintPath>
+    </Reference>
+    <Reference Include="Nancy.Hosting.Self">
+      <HintPath>..\packages\Nancy.Hosting.Self.1.4.1\lib\net40\Nancy.Hosting.Self.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

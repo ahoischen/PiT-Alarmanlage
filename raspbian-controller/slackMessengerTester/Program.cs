@@ -8,7 +8,7 @@ namespace slackMessengerTester
 	{
 		public static void Main (string[] args)
 		{
-			SlackMessenger.PostMessage ("Should be the last test now, gonna stop soon.", "@alexander-hoischen");
+			new SlackMessenger().PostMessage ("Should be the last test now, gonna stop soon.", "@alexander-hoischen");
 		}
 	}
 }

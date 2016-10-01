@@ -3,48 +3,46 @@ using System.Net;
 using System.Collections.Specialized;
 using System.Text;
 using Newtonsoft.Json;
+using Slack.Webhooks;
 
 namespace SlackIntegration
 {
-	public static class SlackMessenger
+	public class SlackMessenger
 	{
-		public static void PostMessage(string messageText) {
-			sendMessage(messageText);
+		private SlackClient client = null;
+
+		public SlackMessenger() : this ("https://hooks.slack.com/services/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") {
+
 		}
 
-		public static void PostMessage(string messageText, string channel) {
-			sendMessage(messageText, channel: channel);
+		public SlackMessenger(string webhookURL) {
+			this.client = new SlackClient (webhookURL);
 		}
 
-		private static void sendMessage(string text,
+		public void PostMessage(string messageText, 
+			string channel = null,
+			string iconEmoji = null,
+			string username = null ) {
+			if (messageText == null)
+				throw new ArgumentNullException ("messageText");
+			
+			sendMessage(messageText, 
+				channel: channel,
+				icon_emoji: iconEmoji,
+				username: username);
+		}
+
+		private void sendMessage(string text,
 		 	string username = null,
-			string icon_url = null,
 			string icon_emoji = null,
 			string channel = null) {
-			SlackMessageJSON payload = new SlackMessageJSON()
-			{
+			var payload = new SlackMessage {
 				Channel = channel,
+				Text = text,
 				Username = username,
-				Text = text
+				IconEmoji = icon_emoji
 			};
-			sendJSON(payload);
-		}
-
-		private static void sendJSON(SlackMessageJSON json) {
-			string payloadJson = JsonConvert.SerializeObject(json);
-			const string targetURL = "https://hooks.slack.com/services/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";
-			Encoding encoding = new UTF8Encoding();
-
-			using (WebClient client = new WebClient())
-			{
-				NameValueCollection data = new NameValueCollection();
-				data["payload"] = payloadJson;
-
-				var response = client.UploadValues(targetURL, "POST", data);
-
-				//The response text is usually "ok"
-				string responseText = encoding.GetString(response);
-			}
+			client.Post (payload);
 		}
 	}
 }
