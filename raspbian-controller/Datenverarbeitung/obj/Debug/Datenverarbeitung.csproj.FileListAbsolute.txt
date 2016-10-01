@@ -21,3 +21,4 @@ C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\Datenverarbeitung\
 C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\Datenverarbeitung\bin\Debug\Newtonsoft.Json.xml
 C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\Datenverarbeitung\bin\Debug\RestSharp.xml
 C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\Datenverarbeitung\bin\Debug\ServiceStack.Text.xml
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\Datenverarbeitung\bin\Debug\publishJPG.py

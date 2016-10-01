@@ -14,3 +14,4 @@ C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\b
 C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\ServiceStack.Text.xml
 C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\Nancy.xml
 C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\Nancy.Hosting.Self.xml
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\publishJPG.py
