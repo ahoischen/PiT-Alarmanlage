@@ -37,7 +37,7 @@ namespace Datenverarbeitung
             if (alarmAusloesen(args.Topic, args.Message) && !istBesitzerZuhause())
             {
                 var Messenger = new SlackIntegration.SlackMessenger();
-                Messenger.PostMessage("Alarm auslösen !", iconEmoji: ":D");
+                Messenger.PostMessageWithPic("Alarm !");
                 x.beepForSeconds(6);
             }
 

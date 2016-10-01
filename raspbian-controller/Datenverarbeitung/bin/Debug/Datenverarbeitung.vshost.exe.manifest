@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>PzSqskghGMlxsSlVj0CPud3ChrecdEd02/rlLvt64Ek=</dsig:DigestValue>
+        <dsig:DigestValue>3vWZY2zAmNMbXwLF4cC74M7JUzcvdppU1NjIIXCV6vY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -66,14 +66,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MQTT-Leser.dll" size="5632">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="MQTT-Leser.dll" size="6144">
       <assemblyIdentity name="MQTT-Leser" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+i6E7v+61vThkh45fCtWtMVYU2mbdk7yvya5udXhQNY=</dsig:DigestValue>
+        <dsig:DigestValue>FzxLD4IY3s89oyj7RmobTRh0HeyFOglDpFgRVEU3HGc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -126,14 +126,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="slackIntegration.dll" size="5632">
-      <assemblyIdentity name="slackIntegration" version="1.0.6118.33812" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="slackIntegration.dll" size="6144">
+      <assemblyIdentity name="slackIntegration" version="1.0.6118.35780" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>l6layJN2CY2HMr+7PmHWE873GTSgk/xq3mvk3jriPUw=</dsig:DigestValue>
+        <dsig:DigestValue>fHx6lafYQEo2yO9ku1u3lyFnC6mnlnJxybyQQuwM/9k=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
