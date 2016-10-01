@@ -4,6 +4,7 @@ using System.Collections.Specialized;
 using System.Text;
 using Newtonsoft.Json;
 using Slack.Webhooks;
+using System.Diagnostics;
 
 namespace SlackIntegration
 {
@@ -30,6 +31,17 @@ namespace SlackIntegration
 				channel: channel,
 				icon_emoji: iconEmoji,
 				username: username);
+		}
+
+		public void PostMessageWithPic(string messageText) {
+			ProcessStartInfo start = new ProcessStartInfo ();
+			start.FileName = System.IO.Path.GetFullPath("/usr/bin/python");
+			start.Arguments = string.Format ("postJPG.py", messageText);
+			start.UseShellExecute = false;
+			start.RedirectStandardOutput = true;
+			using (Process process = Process.Start (start)) {
+				
+			}
 		}
 
 		private void sendMessage(string text,
