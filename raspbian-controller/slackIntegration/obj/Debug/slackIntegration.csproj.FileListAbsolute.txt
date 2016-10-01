@@ -1,0 +1,5 @@
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\slackIntegration.dll
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\bin\Debug\slackIntegration.pdb
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\obj\Debug\slackIntegration.csprojResolveAssemblyReference.cache
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\obj\Debug\slackIntegration.dll
+C:\Users\doslabor\Desktop\PiT-Alarmanlage\raspbian-controller\slackIntegration\obj\Debug\slackIntegration.pdb
