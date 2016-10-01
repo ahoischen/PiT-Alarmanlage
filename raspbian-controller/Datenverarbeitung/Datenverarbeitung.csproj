@@ -61,6 +61,12 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="M2Mqtt.Net">
+      <HintPath>..\..\..\alarmanlage\M2Mqtt.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MQTT-Leser">
+      <HintPath>..\..\..\alarmanlage\MQTT-Leser.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />

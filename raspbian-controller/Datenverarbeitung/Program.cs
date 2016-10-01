@@ -4,59 +4,68 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO;
+using MQTT_Leser;
+using System.Diagnostics;
 
 namespace Datenverarbeitung
 {
     class Program
     {
-        
+
+        static MqttReader x;
         static void Main(string[] args)
             
         {  //1. Verbindung herstellen
-            slackIntegration
-            
+
+
+            x = new MqttReader("192.168.1.103", "taster", "Erschutterungssensor");
+            x.onNewDataEvent += X_onNewDataEvent;
 
 
 
             //2. Alarm ausgelöst?
- 
-            if(alarmAusloesen() && !istBesitzerZuhause() )
+
+           
+        
+
+        }
+
+
+        private static void X_onNewDataEvent(MqttReader.NewDataEventArgs args)
+        {
+
+            if (alarmAusloesen(args.Topic, args.Message) && !istBesitzerZuhause())
             {
-
-                Console.WriteLine("auslösen");
-
+                var Messenger = new SlackIntegration.SlackMessenger();
+                Messenger.PostMessage("Alarm auslösen !", iconEmoji: ":D");
+                x.beepForSeconds(6);
             }
 
         }
 
+
+
         private static bool istBesitzerZuhause ()
         {
-            string[] dirs = Directory.GetFiles(@"c:\Users\doslabor\Desktop\", "marker.txt");
-            Console.WriteLine("The number of files starting with c is {0}.", dirs.Length);
-            if (dirs.Length >= 1)
+            Process process = Process.Start("python", "Netzwerk.py");
+            process.WaitForExit();
+
+            if (File.Exists("marker"))
             {
                 Console.WriteLine("Alles gut kein Alarm starten.");
                 return true;
             }
             return false;
         }
-        private static bool alarmAusloesen ()
+        private static bool alarmAusloesen (string topic, string text)
         {
-           
-                bool Lichtschranke = false;
-                int Erschuetterungssensor = 0;
+           if(topic.Equals ("taster") && text.Equals ("PRESSED BUTTON"))
+            {
+                return true;
+            }
+            return false;
 
-                bool alarm_ausloesen = false;
-                 // alarm_ausloesen einlesen
 
-                if (Lichtschranke == true || Erschuetterungssensor >= 20)
-                {
-                    alarm_ausloesen = true;
-                    return true;
-                }
-
-                return false;
-            
         }
     }
 }
