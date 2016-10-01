@@ -36,9 +36,9 @@ namespace SlackIntegration
 		public void PostMessageWithPic(string messageText) {
 			ProcessStartInfo start = new ProcessStartInfo ();
 			start.FileName = System.IO.Path.GetFullPath("/usr/bin/python");
-			start.Arguments = string.Format ("postJPG.py", messageText);
-			start.UseShellExecute = false;
-			start.RedirectStandardOutput = true;
+			start.Arguments = "publishJPG.py " + "\"" + messageText + "\"";
+			start.UseShellExecute = true;
+			start.CreateNoWindow = false;
 			using (Process process = Process.Start (start)) {
 				
 			}
